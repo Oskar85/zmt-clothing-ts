@@ -5,7 +5,6 @@ import { ICategoriesProps } from "../../types/ICategories.types";
 
 
 const Directory: FC<ICategoriesProps> = ( { categories } ) => {
-    console.log( categories )
     return (
         <div className="directory-container">
             {
